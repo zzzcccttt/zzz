@@ -1,0 +1,6 @@
+pyecharts==1.9.1
+streamlit==1.22.0
+numpy==1.24.3
+pandas==1.4.4
+surprise==0.1
+openpyxl==3.1.2

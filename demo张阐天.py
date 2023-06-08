@@ -20,7 +20,7 @@ def load_data():
     data_df = data_df[data_df['rating'] != 99.0]
 
     # Load the jokes
-     jokes_df = pd.read_excel('Dataset4JokeSet.xlsx', header=None)
+    jokes_df = pd.read_excel('Dataset4JokeSet.xlsx', header=None)
     jokes_df.columns = ['joke']
     jokes_df.index.name = 'joke_id'
     return data_df, jokes_df
